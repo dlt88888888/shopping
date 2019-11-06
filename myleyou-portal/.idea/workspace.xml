@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5cddd5b-ee2d-447c-a2bb-f44c2ab19655" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1QwUsTXtgbVkycvMITRGXHUlfEO" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ideaProject\myleyou-portal\js" />
+      <recent name="G:\ideaProject\myleyou-portal\js\widget" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5cddd5b-ee2d-447c-a2bb-f44c2ab19655" name="Default Changelist" comment="" />
+      <created>1568646520515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568646520515</updated>
+      <workItem from="1568646527162" duration="1069000" />
+      <workItem from="1568681360244" duration="1299000" />
+      <workItem from="1568985354902" duration="5483000" />
+      <workItem from="1569027259029" duration="30111000" />
+      <workItem from="1569204494710" duration="4975000" />
+      <workItem from="1569283674839" duration="11884000" />
+      <workItem from="1569424227843" duration="5000" />
+      <workItem from="1569504486864" duration="1198000" />
+      <workItem from="1570497153434" duration="3406000" />
+      <workItem from="1570532445612" duration="615000" />
+      <workItem from="1570534521098" duration="604000" />
+      <workItem from="1570538906856" duration="2586000" />
+      <workItem from="1570587351855" duration="1367000" />
+      <workItem from="1570692298480" duration="20496000" />
+      <workItem from="1570754730331" duration="28377000" />
+      <workItem from="1570866488900" duration="8023000" />
+      <workItem from="1570876770244" duration="1318000" />
+      <workItem from="1570929325944" duration="1413000" />
+      <workItem from="1570931969388" duration="2645000" />
+      <workItem from="1570944526987" duration="6939000" />
+      <workItem from="1570964958851" duration="6206000" />
+      <workItem from="1571018695175" duration="18958000" />
+      <workItem from="1571064565219" duration="210000" />
+      <workItem from="1571099034837" duration="21211000" />
+      <workItem from="1571188413436" duration="7860000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

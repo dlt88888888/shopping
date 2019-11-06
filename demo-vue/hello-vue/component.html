@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--title为自定义属性名-->
+    <counter :title="count" :num1="0" @add="addParent()"></counter>
+
+</div>
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    /*子组件*/
+    Vue.component("counter",{
+
+        //template:' <button @click="title++">你点了我 {{title}} 次，我记住了. {{num1}}</button>',
+        template:'<button @click="addSon">你点了我 {{title}} 次，我记住了. {{num1}}</button>',
+        /*data() {
+            return {
+                count: 0
+            }
+        }, */ /*  props为数组   里面可能有多个值*/
+        /*props:[
+            /!*写自定义属性名  可能有多个*!/
+            "title"
+        ]*/
+        props:{
+            title:{
+                type:Number,
+                default: 0
+            },
+            num1:{
+                type: Number
+            }
+        },
+        methods:{
+            addSon(){
+                /*固定写法 调用父传过来的方法  值为父方法的自定义事件名*/
+                this.$emit("add");
+            }
+        }
+    });
+
+     /*父组件*/
+    const app = new Vue({
+        el: "#app",
+        data: {
+            count:5
+        },
+        methods:{
+            addParent(){
+                this.count++;
+            }
+        }
+    })
+</script>
+
+</html>

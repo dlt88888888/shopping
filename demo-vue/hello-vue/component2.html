@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <counter></counter>
+</div>
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+
+<script type="text/javascript">
+    const counter2={
+        template: '<button @click="count++">你戳了我 {{ count }} 次，我记住了.</button>',
+        data(){
+            return {
+                count:0
+            }
+        }
+    }
+    var app=new Vue({
+        el:"#app",
+        components:{
+            counter:counter2
+        }
+    })
+</script>
+
+</html>

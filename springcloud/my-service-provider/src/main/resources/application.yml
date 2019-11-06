@@ -1,0 +1,20 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: dlt362330.
+   # driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: service-provider
+mybatis:
+  type-aliases-package: my.springcloud.service.pojo
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 10 # 开发时设置10秒既过期 服务续约(renew)的间隔，默认为30秒
+    lease-renewal-interval-in-seconds: 5 # 开发时5秒一次心跳  服务失效时间，默认值90秒

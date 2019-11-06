@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+
+        <input type="text" v-model="num">
+        <button v-on:click="num++">点我啊</button>
+        <button v-on:click="add">加</button>
+        <button v-on:click="decrement">减</button>
+        <h2>{{name}}，非常帅！！！ 有{{num}}位女神</h2>
+
+        v-text:<span v-text="hell0"></span>
+        v-html:<span v-html="hell0"></span>
+        <input type="checkbox" v-model="language" value="Java">Java<br/>
+        <input type="checkbox" v-model="language" value="PHP">PHP<br/>
+        <input type="checkbox" v-model="language"  value="Swift">Swift<br/>
+
+        <h1>
+            选择了：{{language.join(',')}}
+        </h1>
+
+        <ul>
+            <li v-for="(user,index) in users" v-if="user.gender=='女'">
+             {{index+1}} --  {{user.name}} -{{user.gender}} - {{user.age}}
+
+            </li>
+            <li v-for="(value,key,index) in user" :key=index >
+                {{index+1}}.{{key}}-{{value}}
+            </li>
+        </ul>
+
+        <button v-on:click="show=!show">点我</button>
+        <br/>
+        <h1 v-if="show">
+            看到我了？！
+        </h1>
+        <h1 v-show="show">
+            看到我了？! show
+        </h1>
+        <div v-bind:title="title" style="border: 1px solid red;width: 50px;height: 50px"></div>
+
+         <div v-bind:class="activeClass"></div>
+         <div v-bind:class="errorClass"></div>
+         <div v-bind:class="[activeClass,errorClass]"></div>
+        <h1>
+            我的生日是：{{birth}}
+        </h1>
+
+        <input type="text" v-model="message">
+
+
+    </div>
+
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+
+<script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            name: "哈哈",
+            num: 5,
+            hell0: "<h1>大家好，好啊</h1>",
+            language:[],
+            users:[
+                {name:'柳岩', gender:'女', age: 21},
+                {name:'峰哥', gender:'男', age: 18},
+                {name:'范冰冰', gender:'女', age: 24},
+                {name:'刘亦菲', gender:'女', age: 18},
+                {name:'古力娜扎', gender:'女', age: 25}
+            ],
+            user:{name:'峰哥', gender:'男', age: 18},
+            show:true,
+            title:"title",
+            activeClass:"active",
+
+            errorClass:['text-danger','text-error'],
+            birthday:1529032123201,
+            message:""
+
+        },
+        methods:{
+            add:function (args) {
+                this.num++;
+                console.log(this);
+            },
+            decrement:function(){
+                this.num--;
+            }
+
+        },
+        computed:{
+            birth(){
+                const d = new Date(this.birthday);
+                return d.getFullYear() + "-" + d.getMonth() + "-" + d.getDay();
+            }
+        },
+        watch:{
+            message(newVal,oldVal){
+
+                console.log(newVal,oldVal);
+            }
+        },
+        created:function (args) {
+            this.num=100;
+            console.log(this);
+        }
+    });
+</script>
+
+
+</html>

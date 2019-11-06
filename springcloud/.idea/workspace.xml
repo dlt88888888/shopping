@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BeansEndpointTabSettings">
+    <option name="showDoc" value="false" />
+    <option name="showLibraryBeans" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bfed2ca-4363-486c-b42f-07a69b0fcbda" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="H:/JavaSoft/mevan-3.5.2" />
+        <option name="userSettingsFile" value="H:\JavaSoft\mevan-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1QN0iYfcMAUXst59QXSVhfKUjFr" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MyServiceZuulApplication">
+    <configuration name="LoadBalanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.spring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.spring.service" />
+      <option name="MAIN_CLASS_NAME" value="my.spring.service.LoadBalanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoadBalanceTest.testLoadBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.spring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.spring.service" />
+      <option name="MAIN_CLASS_NAME" value="my.spring.service.LoadBalanceTest" />
+      <option name="METHOD_NAME" value="testLoadBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceConsumerApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.spring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.spring.service" />
+      <option name="MAIN_CLASS_NAME" value="my.spring.service.MyServiceConsumerApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceConsumerApplicationTests.testLoadBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.spring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.spring.service" />
+      <option name="MAIN_CLASS_NAME" value="my.spring.service.MyServiceConsumerApplicationTests" />
+      <option name="METHOD_NAME" value="testLoadBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.spring.service.MyServiceConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-service-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.springcloud.service.MyServiceEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceEurekaApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-service-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.springcloud.service.MyServiceEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.springcloud.service.MyServiceProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceProviderApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.springcloud.service.MyServiceProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.spring.service.MyServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LoadBalanceTest.testLoadBalance" />
+      <item itemvalue="JUnit.MyServiceConsumerApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.LoadBalanceTest" />
+      <item itemvalue="JUnit.MyServiceConsumerApplicationTests.testLoadBalance" />
+      <item itemvalue="Spring Boot.MyServiceConsumerApplication" />
+      <item itemvalue="Spring Boot.MyServiceEurekaApplication" />
+      <item itemvalue="Spring Boot.MyServiceEurekaApplication2" />
+      <item itemvalue="Spring Boot.MyServiceProviderApplication2" />
+      <item itemvalue="Spring Boot.MyServiceProviderApplication" />
+      <item itemvalue="Spring Boot.MyServiceZuulApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyServiceConsumerApplicationTests.testLoadBalance" />
+        <item itemvalue="JUnit.LoadBalanceTest" />
+        <item itemvalue="JUnit.LoadBalanceTest.testLoadBalance" />
+        <item itemvalue="JUnit.MyServiceConsumerApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.32334048" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@542d60a0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bfed2ca-4363-486c-b42f-07a69b0fcbda" name="Default Changelist" comment="" />
+      <created>1567595874439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567595874439</updated>
+      <workItem from="1567595879394" duration="362000" />
+      <workItem from="1567596383578" duration="4278000" />
+      <workItem from="1567600746630" duration="7863000" />
+      <workItem from="1567609396117" duration="4533000" />
+      <workItem from="1567640898968" duration="35427000" />
+      <workItem from="1567780031360" duration="2437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
